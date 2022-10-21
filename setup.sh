@@ -4,4 +4,4 @@ docker run -it \
 --platform=linux/amd64 \
 -p 8000:8000 \
 --mount type=bind,source="$(pwd)"/src,target=/workspace \
-webapp
+ghcr.io/masayoshitsutsui/mlwebapp/flwebapp:first
